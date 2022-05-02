@@ -1,0 +1,105 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    background-image: url("https://store-images.s-microsoft.com/image/apps.40609.13699191180021100.4742ea56-18b9-43fa-bfb3-2da8de4c1b84.31ecd898-9982-43fb-b801-415621d50d66");
+    color: #0b022e;
+    /* position: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#form {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    background-color: #33ccff;
+    opacity: 0.8;
+    position: sticky;
+}
+
+.form-control {
+    display: block;
+    width: 65%;
+    height: 2rem;
+    padding: 0.2rem 1rem;
+    margin: auto 0.5rem auto 0.5rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#title {
+    background: linear-gradient(to bottom, #0b022e 0%, #33ccff 100%);
+    background-color: #0b022e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#description {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.content {
+    display: grid;
+    margin: 0 1rem 1.25rem 1rem;
+    padding: 0.25rem;
+}
+
+footer {
+    background: linear-gradient(to top, #0b022e 0%, #33ccff 100%);
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.input-radio,
+.input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 97%;
+    padding: 0.625rem;
+    resize: vertical;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.submit-button {
+    display: block;
+    width: 95%;
+    padding: 0.75rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #5714b5;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #00f7ff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
